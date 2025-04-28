@@ -1,0 +1,78 @@
+/* Общие стили */
+body {
+    font-family: 'Comic Neue', sans-serif;
+    background-color: #2e2b7e;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #ff00d4;
+}
+
+button {
+    background-color: #ff00d4;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff80ff;
+}
+
+input {
+    padding: 10px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    width: 70%;
+    border: 2px solid #ff00d4;
+    background-color: #2e2b7e;
+    color: white;
+}
+
+/* Секции */
+header {
+    background: url('assets/cosmic-background.gif') no-repeat center center fixed;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+#memes img {
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    input {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
