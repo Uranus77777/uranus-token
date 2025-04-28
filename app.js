@@ -13,7 +13,7 @@ async function askUranus() {
         const response = await fetch('https://api-inference.huggingface.co/models/microsoft/DialoGPT-small', {
             method: 'POST',
             headers: {
-                'Authorization': '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', // вставь сюда свой токен
+                'Authorization': 'Bearer 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', // Здесь твой токен
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({ inputs: userInput })
